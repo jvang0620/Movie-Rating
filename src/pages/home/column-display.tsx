@@ -70,6 +70,7 @@ export const ColumnDisplay = (props: Props) => {
                             }/${displayData.id}`}
                         >
                             <Card 
+                                style={{ height: 820 }}
                                 fluid 
                                 image={`https://image.tmdb.org/t/p/original/${displayData.poster_path}`} 
                                 header={
