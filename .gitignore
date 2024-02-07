@@ -26,3 +26,6 @@ dist-ssr
 
 # Info.txt
 info.txt
+
+#.env
+.env
