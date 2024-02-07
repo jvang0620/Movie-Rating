@@ -7,9 +7,11 @@ export const Navbar = () => {
             <Menu.Item as={Link} to="/" style={{fontSize: "1.5rem"}}> 
                 Home 
             </Menu.Item>
+
             <Menu.Item as={Link} to="/rated" style={{fontSize: "1.5rem"}}> 
                 Rated 
             </Menu.Item>
+            
             <Menu.Menu position="right">
                 <Menu.Item as={Link} to="/auth" style={{fontSize: "1.5rem"}}> 
                     Auth 
