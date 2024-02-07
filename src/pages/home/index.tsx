@@ -1,8 +1,8 @@
 import { useState } from "react";
-import {Button}  from "semantic-ui-react";
+import { Button }  from "semantic-ui-react";
 import { ColumnDisplay } from "./column-display";
 
-import {fetchMovies, fetchTvShows} from "./query";
+import { fetchMovies, fetchTvShows } from "./query";
 import { useQuery } from "@tanstack/react-query";
 
 export enum DisplayType {
