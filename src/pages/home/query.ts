@@ -4,7 +4,7 @@ export const fetchMovies = async () => {
         {
             headers: {
                 Authorization:
-                    "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNjkwNWQ5NjdiMDE4NTJkMmM3ZmE3NzBiNGJhYzYzYiIsInN1YiI6IjY1YjdmZTg2OGM3YjBmMDE4MzRhODBiOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Hh4ZCoBpYPxfdSJi6YoDCSuo0m8soIEoaDtRSt_YNN0",
+                    `Bearer ${import.meta.env.VITE_API_READ_ACCESS_TOKEN}`,
             },
         }
     );
@@ -18,7 +18,7 @@ export const fetchTvShows = async () => {
         {
             headers: {
                 Authorization:
-                    "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNjkwNWQ5NjdiMDE4NTJkMmM3ZmE3NzBiNGJhYzYzYiIsInN1YiI6IjY1YjdmZTg2OGM3YjBmMDE4MzRhODBiOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Hh4ZCoBpYPxfdSJi6YoDCSuo0m8soIEoaDtRSt_YNN0",
+                    `Bearer ${import.meta.env.VITE_API_READ_ACCESS_TOKEN}`,
             },
         }
     );
