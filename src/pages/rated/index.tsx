@@ -4,6 +4,7 @@ import { DisplayType } from "../home";
 import { useQuery } from "@tanstack/react-query";
 import { fetchRatedMovies, fetchRatedTvShows } from "./query";
 import { ColumnDisplay } from "../home/column-display";
+import { Navigate } from "react-router-dom";
 
 export const Rated = () => {
 
@@ -21,6 +22,11 @@ export const Rated = () => {
 
     if (isLoadingRatedMovies || isLoadingRatedTvShows) {
         return <Loader active />
+    }
+
+    //If user is not authenticated, don't allow them to go to rated page, rather navigate to auth page
+    if (localStorage.getItem("guest_session_id") === null) {
+        return <Navigate to="/auth" />
     }
     
     return (
