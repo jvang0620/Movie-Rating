@@ -20,6 +20,8 @@
 
 The Movie Rating App is a comprehensive web application that empowers users to discover and rate their favorite movies and TV shows. Built with a seamless integration with The Movie Database (TMDB) API, the app provides users with up-to-date information on an extensive library of titles, including current releases, popular picks, and timeless classics.
 
+The application is deployed on AWS Amplify and can be accessed here: [Moving Rating App](https://dev.d2so2aiqxejyq.amplifyapp.com/).
+
 ### Features:
 
 - **Discover and Rate**: Explore a diverse collection of movies and TV shows, from blockbuster hits to indie gems. Users can rate titles based on their viewing experience, providing valuable feedback to the community and helping others discover new favorites.
