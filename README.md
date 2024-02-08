@@ -141,8 +141,9 @@ Together, Vite, React, and TypeScript form a powerful stack for building modern 
 ### How To Use The Program
 
 1. First, log in as a guest by selecting the 'Login' purple button. Note that you won't be able to navigate to the "Home" and "Rated" pages until you log in as a guest.
-
-![Login](/images/howToUse-1.JPG)
+<p align="center">
+  <img src="/images/howToUse-1.JPG" alt="Login">
+</p>
 
 2. After logging in, browse around and click on all the movies on the homepage. The homepage brings you to all the movie listings. Note that sometimes the link to a certain movie is broken, and its image and info won't display. You can rate the movie by selecting a number from 1 - 10 or by typing it. Select the 'Rate' button to submit the rating.
 
