@@ -141,50 +141,51 @@ Together, Vite, React, and TypeScript form a powerful stack for building modern 
 ### How To Use The Program
 
 1. First, log in as a guest by selecting the 'Login' purple button. Note that you won't be able to navigate to the "Home" and "Rated" pages until you log in as a guest.
+
 <p align="center">
   <img src="/images/howToUse-1.JPG" alt="Login">
 </p>
 
 2. After logging in, browse around and click on all the movies on the homepage. The homepage brings you to all the movie listings. Note that sometimes the link to a certain movie is broken, and its image and info won't display. You can rate the movie by selecting a number from 1 - 10 or by typing it. Select the 'Rate' button to submit the rating.
 
-<div style="display: flex; justify-content: center;">
+<p align="center">
     <img src="images/howToUse-2.JPG" alt="Menu Screen" width="300">
-</div>
+<p>
 
 3. You can do the same for television shows. Click the 'TV Shows' tab on the top. This will navigate you to the TV Show section. Note that sometimes the link to a certain TV show is broken, and its image and info won't display.
 
-<div style="display: flex; justify-content: center;">
+<p align="center">
     <img src="images/howToUse-3.JPG" alt="Menu Screen" width="300">
-</div>
+<p>
 
 4. After rating the movie, select the 'Rated' tab on the top left. It will take you to the 'Rated Movies' section. Note that sometimes the link to a certain movie is broken, and its image and info won't display.
 
-<div style="display: flex; justify-content: center;">
+<p align="center">
     <img src="images/howToUse-4.JPG" alt="Menu Screen" width="300">
-</div>
+<p>
 
 5. If you click on the image of the movie, it will take you to another page that will show you the details of the movie.
 
-<div style="display: flex; justify-content: center;">
+<p align="center">
     <img src="images/howToUse-4a.JPG" alt="Menu Screen" width="300">
-</div>
+<p>
 
 6. You can do the same for the TV show after rating it. Select "Rated" on the top left corner. Afterward, select the "TV Shows" tab inside the "Rated" page. This will display all the shows you rated. Note that sometimes the link to a certain show is broken, and its image and info won't display.
 
-<div style="display: flex; justify-content: center;">
+<p align="center">
     <img src="images/howToUse-5.JPG" alt="Menu Screen" width="300">
-</div>
+<p>
 
 7. If you click on the image of the show, it will take you to another page that will show you the details of the show.
 
-<div style="display: flex; justify-content: center;">
+<p align="center">
     <img src="images/howToUse-5a.JPG" alt="Menu Screen" width="300">
-</div>
+<p>
 
 8. When you are finished, you can select the 'Logout' tab in the top right corner to log out. This will end your session. The next time you log back in, everything will be refreshed.
 
-<div style="display: flex; justify-content: center;">
+<p align="center">
     <img src="images/howToUse-6.JPG" alt="Menu Screen" width="300">
-</div>
+<p>
 
 We hope you enjoy the app! Have a great day!
